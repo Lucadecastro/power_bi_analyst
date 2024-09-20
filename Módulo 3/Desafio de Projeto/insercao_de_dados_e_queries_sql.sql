@@ -101,11 +101,11 @@ SELECT * FROM employee WHERE Dno IN (3,6,9);
 
 SELECT Bdate, Address
 FROM EMPLOYEE
-WHERE Fname = ‘John’ AND Minit = ‘B’ AND Lname = ‘Smith’;
+WHERE Fname = 'John’ AND Minit = 'B' AND Lname = 'Smith';
 
 SELECT Fname, Lname, Address
 FROM EMPLOYEE, DEPARTMENT
-WHERE Dname = ‘Research’ AND Dnumber = Dno;
+WHERE Dname = 'Research' AND Dnumber = Dno;
 
 --
 --
